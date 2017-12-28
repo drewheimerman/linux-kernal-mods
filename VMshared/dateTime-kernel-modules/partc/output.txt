@@ -1,0 +1,16 @@
+Invoking 'dateTime' system callSystem call 'dateTime' executed correctly. Use 'dmesg' to check kernel prints to verify against information passed to user.
+
+Printing received information:
+
+Time: 18:03:01 UTC
+Day:  04 
+Month: 11
+Year: 2017
+
+----Output from 'dmesg'----
+
+[  405.442969] System call 'dateTime' called:
+[  405.442974] Time: 18:03:01
+               Day: 04
+               Month: 11
+               Year: 2017

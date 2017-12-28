@@ -1,0 +1,8 @@
+#ignore object files
+*.o
+#ignore build files
+*.cmd
+*.builtin
+*.order
+#ignore logs
+*.log
